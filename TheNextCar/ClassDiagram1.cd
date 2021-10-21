@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TheNextCar.Controller.AccubaterryController">
+    <Position X="17.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAIAAAAAAAEABAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Controller\AccubaterryController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="accubattery" />
+      <Field Name="callBackOnPowerChanged" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TheNextCar.Controller.Car">
+    <Position X="14.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAACAAIBAAQAAACAAAAgAAJAAQFAAAEAAAAAAAAQAAA=</HashCode>
+      <FileName>Controller\Car.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="accubaterryController" />
+      <Field Name="callbackCarEngineStatusChanged" />
+      <Field Name="doorController" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TheNextCar.Controller.DoorController">
+    <Position X="11.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAgAAAQACAAAAQAAAAIAAAAAIAAAAAAAAg=</HashCode>
+      <FileName>Controller\DoorController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="door" />
+      <Field Name="onDoorChanged" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TheNextCar.Model.Accubattery">
+    <Position X="21.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAEAAAABAIAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Accubattery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheNextCar.Model.Door">
+    <Position X="9.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAIAAQACAAAAAAQAAAAAAAAIAAAAAAAAg=</HashCode>
+      <FileName>Model\Door.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="locked" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TheNextCar.App" Collapsed="true">
+    <Position X="16" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheNextCar.MainWindow" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAAAAAAAAACAAAAAQFIIAAAAAAAAAAAAAAEAAQAAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="nextCar" />
+      <Field Name="status" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="System.Object" Collapsed="true">
+    <Position X="11.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Boolean">
+    <Position X="7.25" Y="2" Width="1.5" />
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Field Name="FalseString" />
+      <Field Name="TrueString" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.String" Collapsed="true">
+    <Position X="4.75" Y="2" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="TheNextCar.Controller.OnPowerChanged" Collapsed="true">
+    <Position X="19.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controller\AccubaterryController.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TheNextCar.Controller.OnCarEngineStatusChanged" Collapsed="true">
+    <Position X="16.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controller\Car.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TheNextCar.Controller.OnDoorChanged" Collapsed="true">
+    <Position X="9" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controller\DoorController.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
